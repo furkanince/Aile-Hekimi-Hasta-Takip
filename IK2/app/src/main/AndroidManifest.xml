@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.furkan.ik2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewBookActivity" />
+        <activity android:name=".BookListActivity" />
+        <activity android:name=".CalisanListActivity" />
+        <activity android:name=".NewCalisanActivity" />
+        <activity android:name=".SeacrhPerson" />
+        <activity android:name=".FirebaseSearch" />
+        <activity android:name=".FirebaseSearchAdd" />
+        <activity android:name=".user_sign.RegisterActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".user_sign.LoginActivity" />
+        <activity android:name=".NewNoteActivity" />
+        <activity android:name=".components.NotelistActivity" />
+        <activity android:name=".components.Sirketistatikleri" />
+        <activity android:name=".tıbbi_istatistik.Hasta_Ekle" />
+        <activity android:name=".tıbbi_istatistik.Hasta_Ara" />
+        <activity android:name=".tıbbi_istatistik.Istatistik" />
+        <activity android:name=".ik3.FotoYukle" />
+        <activity android:name=".ik3.ImageListActivity" />
+        <activity android:name=".listview_newActivity.Listview_new_activity" />
+        <activity android:name=".listview_newActivity.DetailActivity" />
+        <activity android:name=".multi_items.NewActivity" />
+        <activity android:name=".multi_items.DetailActivity" />
+        <activity android:name=".tıbbi_istatistik.HastaDetails"></activity>
+    </application>
+
+</manifest>

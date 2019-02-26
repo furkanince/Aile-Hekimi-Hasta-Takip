@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PersonEkle">
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_marginStart="29dp"
+        android:text="Choose file"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="222dp"
+        android:layout_height="176dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_choose_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:gravity="center"
+        android:text="Show Uploads"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="34dp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:hint="İsim-Soyisim Giriniz.." />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_text_file_name"
+        android:layout_below="@+id/edit_text_file_name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Departman Giriniz.."
+        android:layout_alignLeft="@+id/edit_text_file_name" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_text_file_name"
+        android:layout_below="@+id/editText"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email Giriniz.."
+        android:layout_alignLeft="@+id/edit_text_file_name" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_text_file_name"
+        android:layout_below="@+id/editText2"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="İse Giriş Tarihini Giriniz.."
+        android:layout_alignLeft="@+id/edit_text_file_name" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_text_file_name"
+        android:layout_below="@+id/editText3"
+        android:ems="10"
+        android:hint="Telefon numarası Giriniz.."
+        android:inputType="number"
+        android:layout_alignLeft="@+id/edit_text_file_name" />
+
+</RelativeLayout>

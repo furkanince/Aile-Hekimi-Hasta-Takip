@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseSearchAdd">
+
+
+    <EditText
+        android:id="@+id/ad_fs"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:inputType="textPersonName"
+        android:hint="Ad" />
+
+    <EditText
+        android:id="@+id/departman_fs"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="80dp"
+        android:hint="Departman" />
+
+    <EditText
+        android:id="@+id/telefon_fs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:hint="Telefon" />
+
+    <EditText
+        android:id="@+id/email_fs"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="208dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/isegiris_fs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="238dp"
+        android:inputType="date"
+        android:hint="isegiris" />
+
+    <Button
+        android:id="@+id/button_add_fs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="ADD" />
+
+    <Spinner
+        android:id="@+id/spinner_fs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="158dp"
+        android:entries="@array/gender"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

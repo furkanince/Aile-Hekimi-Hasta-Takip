@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tıbbi_istatistik.Hasta_Ekle">
+
+
+    <EditText
+        android:id="@+id/ad_hasta"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:inputType="textPersonName"
+        android:hint="Ad-Soyad" />
+
+    <EditText
+        android:id="@+id/ilac_hasta"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:hint="ilaç"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/meslek_hasta"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:hint="Mesleği"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/ilac_baslama_tarihi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="İlaç başlama tarihi"
+        android:inputType="date"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button_add_hasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:text="ADD" />
+
+    <Spinner
+        android:id="@+id/spinner_hasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="205dp"
+        android:entries="@array/gender"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

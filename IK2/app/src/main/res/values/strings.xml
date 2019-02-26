@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IK2</string>
+
+    <string-array name="numbers">
+
+        <item>bir</item>
+        <item>iki</item>
+        <item>uc</item>
+        <item>dort</item>
+
+    </string-array>
+
+    <array name="gender">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </array>
+
+</resources>

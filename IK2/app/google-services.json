@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "16071029487",
+    "firebase_url": "https://ikprojem-e2870.firebaseio.com",
+    "project_id": "ikprojem-e2870",
+    "storage_bucket": "ikprojem-e2870.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16071029487:android:7c92d580045fd676",
+        "android_client_info": {
+          "package_name": "com.example.furkan.ik2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16071029487-sv3m82e1mk57crlbgfle2tinues75hhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.furkan.ik2",
+            "certificate_hash": "d41c68c9351417627b929eb01132d13cfc1f183f"
+          }
+        },
+        {
+          "client_id": "16071029487-2r5acc2lmjpfug5qt91kg5jlnane1f50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOMfavh3SJG_e8ls6rSowySd8HqUeiiZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16071029487-2r5acc2lmjpfug5qt91kg5jlnane1f50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
